@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Assets/CSS/Style.css">
+    <title>Trivial Trivia Game</title>
+
+</head>
+
+<body>
+
+    <div class="grid">
+        <div id="quiz">
+            <h1>Totally Trivail Trivia</h1>
+            <h3 id="timeleft">Time Left: </h3>
+            <hr style="margin-bottom: 20px">
+
+            <p id="question"></p>
+
+            <div class="buttons">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+            </div>
+
+            <hr style="margin-top: 50px">
+
+            <footer>
+                <p id="progress">Question x of y.</p>
+            </footer>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="Assets/Javascript/quiz_controller.js"></script>
+    <script src="Assets/Javascript/question.js"></script>
+    <script src="Assets/Javascript/app.js"></script>
+</body>
+
+</html>
